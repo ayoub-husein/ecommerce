@@ -10,7 +10,11 @@ import '@fortawesome/fontawesome-free/js/all'
 $(function(){
     
     $('[data-toggle="tooltip"]').tooltip()
-})
+
+    $('.add-to-card-btn').click(function(){
+        alert('أضيف المنتج الى عربة الشراء')
+    });
+});
 
 
 
