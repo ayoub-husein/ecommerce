@@ -93,7 +93,7 @@
             </nav>
         </div>
         <!-- نهاية الشريط العلوي -->
-        <div class="row">
+        <div class="row carousel-row">
             <div class="col-md-12">
                 <!-- الصور المتبدلة -->
                 <div id="carousel-featured" class="carousel slide" data-ride="carousel">
@@ -166,13 +166,17 @@
                         </div>
                        </div>
                     </div>
-                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                      <span class="sr-only">Previous</span>
+                    <div class="carousel-indicators custom-carousel-indicators-primary">
+                        <img src="./images/lacoste_1.png" alt="تي شيرت رجالي من لاكوست" data-target="#carousel-featured" data-slide-to="0" class="active">
+                        <img src="./images/lacoste_2.png" alt="حقيبة شانتاكو نسائية" data-target="#carousel-featured" data-slide-to="1">
+                        <img src="./images/lacoste_3.png" alt="تي شيرت بولو" data-target="#carousel-featured" data-slide-to="2">
+                        <img src="./images/lacoste_2.png" alt="بدلة فايربرد الرياضية" data-target="#carousel-featured" data-slide-to="3">
+                    </div>
+                    <a class="carousel-control-prev" href="#carousel-featured" role="button" data-slide="prev">
+                        <i class="fas fa-angle-right fa-2x"></i>
                     </a>
-                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                      <span class="sr-only">Next</span>
+                    <a class="carousel-control-next" href="#carousel-featured" role="button" data-slide="next">
+                        <i class="fas fa-angle-left fa-2x"></i>
                     </a>
                   </div>
                 <!-- نهاية الصور المتبدلة -->
