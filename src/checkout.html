@@ -120,7 +120,7 @@
                     <h1 class="coustom-heading">
                         عربة الشراء
                     </h1>
-                    <form id="form-checkout">
+                    <form id="form-checkout" action="payment.html" method="GET">
                         <table class="custom-table">
                             <thead>
                                 <tr>
@@ -146,7 +146,8 @@
                                         400$
                                     </td>
                                     <td>
-                                        <select name="quntity1" class="form-control custom-form-control quntity" data-product-quntity>
+                                        <input type="hidden" name="product-1" value="تي شيرت رجالي من لاكوست">
+                                        <select name="quntity-1" class="form-control custom-form-control quntity" data-product-quntity>
                                             <option value="1">1</option>
                                             <option value="2">2</option>
                                             <option value="3" selected>3</option>
@@ -176,7 +177,8 @@
                                         300$
                                     </td>
                                     <td>
-                                        <select name="quntity1" class="form-control custom-form-control quntity" data-product-quntity>
+                                        <input type="hidden" name="product-2" value="تي شيرت أديداس">
+                                        <select name="quntity-2" class="form-control custom-form-control quntity" data-product-quntity>
                                             <option value="1" selected>1</option>
                                             <option value="2">2</option>
                                             <option value="3">3</option>
@@ -207,12 +209,12 @@
                                 </tr>
                             </tfoot>
                         </table>
-                        <button class="btn custom-btn-primary-2 custom-btn-whit-icon">
-                            <span>
-                                اكمال عملية الشراء
-                                <i class="fas fa-dollar-sign"></i>
-                            </span>
-                        </button>
+                            <button type="submit" class="btn custom-btn-primary-2 custom-btn-whit-icon">
+                                <span>
+                                    اكمال عملية الشراء
+                                    <i class="fas fa-dollar-sign"></i>
+                                </span>
+                            </button>
                     </form>
                 </div>
                 <!-- نهاية عربة الشراء -->

@@ -68,6 +68,63 @@ $(function(){
         $('#total-price-for-all-products').text(totalPriceForAllProducts + '$');
     }
 
+    var citiesByCountry = {
+        SA: ["الرياض","جدة"],
+        EG: ["القاهرة","الأسكندرية"],
+        JO: ["عمان","الزرقاء"],
+        SY: ["دمشق","حلب","حماة"]
+    };
+
+    // عندما يتغير البلد
+
+    $('#form-checkout select[name="country"]').change(function(){
+
+        // أطلب رمز البلد
+        var country = $(this).val();
+        // اجلب مدن هاذا البلد من المصفوفة
+        var cities = citiesByCountry[country];
+        
+        // فرغ قائمة المدن
+        $('#form-checkout select[name="city"]').empty();
+       
+        // اضافة خيار اختر مدينة
+        $('#form-checkout select[name="city"]').append(
+            '<option disabled selected value="">أختر مدينة</option>'
+        );
+       
+        // اضف المدن الى قائمة المدن
+        cities.forEach(function(city){
+            var newOption = $('<option></option>')
+            newOption.text(city);
+            newOption.val(city);
+            $('#form-checkout select[name="city"]').append(newOption);
+        });
+    });
+
+    // عندما تتغير طريقة الدفع
+    $('#form-checkout input[name="payment-method"]').change(function(){
+       
+        // اجلب القيمة المختارة حالياً
+        var paymentMethod = $(this).val();
+
+        if(paymentMethod === 'on_delivery') {
+        
+            //اذا كانت عند الاستلام فعطل حقول بطاقة الائتمان
+            $('#credit-card-info input').prop('disabled', true);
+        
+        }else{
+           
+            // والا ففعلها
+            $('#credit-card-info input').prop('disabled', false);
+        
+        }
+
+        // بدل معلومات بطاقة الائتمان بي الضهور والاخفاء
+        $('#credit-card-info').toggle();
+
+
+    })
+
 });
 
 
