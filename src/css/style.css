@@ -48,7 +48,7 @@ body {
 .custom-btn:hover {
     background-color: #d4d4d4;
     border: 1px solid #8c8c8c;
-    color: #b86d07;
+    /* color: #b86d07; */
 }
 
 .categories .nav-link {
@@ -367,17 +367,17 @@ h3.custom-heading {
     margin-bottom: 8px;
 }
 
-.custom-btn-primary {
+/* .custom-btn-primary {
     color: #F8AD47;
     border-color: #F8AD47;
     background-color: transparent;
-}
+} */
 
-.custom-btn-primary:active, .custom-btn-primary:hover, .custom-btn-primary:focus, .custom-btn-primary:active:hover, .custom-btn-primary:active:focus {
+/* .custom-btn-primary:active, .custom-btn-primary:hover, .custom-btn-primary:focus, .custom-btn-primary:active:hover, .custom-btn-primary:active:focus {
     color: #b86d07;
     border-color: #b86d07;
     background-color: transparent;
-}
+} */
 
 .custom-panel h4, .custom-panel .price {
     font-size: 130%;
@@ -475,17 +475,17 @@ input[type=email],input[type=number] {
     color: #555555;
 }
 
-.custom-btn-primary-2 {
+/* .custom-btn-primary-2 {
     color: #000;
     background-color: #F8AD47;
     border-color: #F8AD47;
-}
+} */
 
-.custom-btn-primary-2:hover, .custom-btn-primary-2:active, .custom-btn-primary-2:focus, .custom-btn-primary-2:active:hover, .custom-btn-primary-2:active:focus {
+/* .custom-btn-primary-2:hover, .custom-btn-primary-2:active, .custom-btn-primary-2:focus, .custom-btn-primary-2:active:hover, .custom-btn-primary-2:active:focus {
     color: #000;
     background-color: #b86d07;
     border-color: #b86d07;
-}
+} */
 
 #newslatter form input {
     background-color: #313131;
@@ -687,29 +687,29 @@ CHECKOUT PAGE
 #form-checkout{
     width: 100%;
 }
-.custom-table{
+/* .custom-table{
     min-width: 100%;
-}
+} */
 .custom-media img{
     width: 80px;
     height: 80px;
     border: 1px solid #EBEBEB;
     margin-left: 10px;
 }
-.custom-table th,.custom-table td{
+/* .custom-table th,.custom-table td{
     padding: 15px;
     border-bottom: 1px solid #EBEBEB;
     border-top: 1px solid #EBEBEB;
     font-size: 120%;
-}
-.custom-table th:first-child,.custom-table td:first-child{
+} */
+/* .custom-table th:first-child,.custom-table td:first-child{
     width: 50%;
-}
-.custom-table th{
+} */
+/* .custom-table th{
     color: #C2C2C2;
     font-weight: normal;
-}
-.custom-table .custom-media{
+} */
+/* .custom-table .custom-media{
     margin: 15px 15px 15px 0;
 }
 .custom-table .custom-media h4{
@@ -721,14 +721,17 @@ CHECKOUT PAGE
     height: 34px !important;
     padding: 0 8px;
     margin-right: 23px;
-}
+} */
 .custom-btn-danger{
+    border-radius: 3px;
+}
+ /* .custom-btn-danger{
     color: #ff5a5f;
     border-color: #ff5a5f;
     background-color: transparent;
     border-radius: 3px;
-}
-.custom-btn-danger:hover,
+} */
+/* .custom-btn-danger:hover,
 .custom-btn-danger:focus,
 .custom-btn-danger:active,
 .custom-btn-danger:active:hover,
@@ -737,8 +740,8 @@ CHECKOUT PAGE
     border-color: #c2101e;
     background-color: transparent;
 
-}
-.custom-table th:first-child{
+}  */
+/* .custom-table th:first-child{ 
     padding-right: 20px;
 }
 .custom-table tfoot td{
@@ -750,7 +753,7 @@ CHECKOUT PAGE
 }
 .custom-table .total-price .custom-text-muted .custom-text-muted{
     color: #A9A9A9;
-}
+} */
 
 /* *************************************************
 
@@ -808,11 +811,11 @@ SEARCH PAGE
     cursor: pointer;
     font-weight: bold;
 }
-.ui-slider{
+ /* .ui-slider{
     margin: 25px 0px 15px;
     height: 2px !important;
-}
-.ui-slider .ui-slider-handle{
+}  */
+/* .ui-slider .ui-slider-handle{
     background-color: #F8AD47 !important;
     border: none !important;
     border-radius: 50%;
@@ -823,7 +826,7 @@ SEARCH PAGE
 .ui-slider .ui-slider-range{
     border: 1px solid #F8AD47 !important;
     top: -1px !important;
-}
+}  */
 .custom-pagination li a{
     border: 1px solid #EBEBEB;
     width: 32px;
@@ -985,11 +988,11 @@ MEDIA QUERY
         font-size: 20px;
     }
     /* search page */
-    .ui-slider .ui-slider-handle{
+    /* .ui-slider .ui-slider-handle{
         height: 20px !important;
         width: 20px !important;
         top: -10px !important;
-    }
+    } */
     /* contact page */
     #form-subscription{
         margin-bottom: 40px;

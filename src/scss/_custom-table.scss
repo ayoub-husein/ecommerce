@@ -1,0 +1,47 @@
+.custom-table{
+    th,td{
+        padding: 15px;
+        border-bottom: 1px solid #EBEBEB;
+        border-top: 1px solid #EBEBEB;
+        font-size: 120%;
+        &:first-child{
+            width: 50%;
+        }
+        min-width: 100%;
+    }
+    th{
+        color: #C2C2C2;
+        font-weight: normal;
+        &:first-child{ 
+            padding-right: 20px;
+        }
+    }
+    .custom-media{
+        margin: 15px 15px 15px 0;
+    }
+    .custom-media h4{
+        font-size: 18px;
+        margin: 12px 0;
+    }
+    .quntity{
+        width: 56px;
+        height: 34px !important;
+        padding: 0 8px;
+        margin-right: 23px;
+    }  
+    tfoot {
+        td{
+            border-bottom: none;
+            font-size: 150%;
+        }
+    }
+    .total-price *{
+        color: #000;
+    }
+    .total-price .custom-text-muted .custom-text-muted{
+        color: #A9A9A9;
+    }
+}
+
+
+

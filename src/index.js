@@ -1,5 +1,7 @@
-import '@laylazi/bootstrap-rtl/dist/css/bootstrap-rtl.min.css';
+// import '@laylazi/bootstrap-rtl/dist/css/bootstrap-rtl.min.css';
+// import '@laylazi/bootstrap-rtl-scss/scss/bootstrap-rtl.scss';
 import './css/style.css'
+import './scss/style.scss'
 import 'bootstrap/dist/js/bootstrap.min.js'
 import 'jquery/dist/jquery'
 import 'popper.js/dist/popper'
