@@ -303,7 +303,7 @@ h3.custom-heading {
 .custom-thumnail .overlay {
     position: absolute;
     background-color: rgba(83, 204, 215, 0.5);
-    height: 235px;
+    height: 237px;
     width: calc(100%-16px);
     display: flex;
     justify-content: center;
@@ -339,14 +339,14 @@ h3.custom-heading {
 }
 
 .custom-carousel-indicators li {
-    height: 13px;
-    width: 13px;
-    margin: 2px;
-    background-color: #dbdbdb;
+    height: 13px !important;
+    width: 13px !important;
+    margin: 2px !important;
+    background-color: #dbdbdb !important;
 }
 
 .custom-carousel-indicators>li.active {
-    background-color: #565656;
+    background-color: #565656 !important;
 }
 
 #carousel-most-sold .carousel-indicators {
@@ -519,19 +519,19 @@ input[type=email],input[type=number] {
 
 /* *************************************************
 
-product page
+PRODUCT PAGE
 
 ************************************************* */
 
 /* قائمة التنقل الفرعية */
 
 .custom-breadcrumb {
-    background-color: transparent;
-    padding: 25px 0;
+    background-color: transparent !important;
+    padding: 25px 0 !important;
 }
 
 .custom-breadcrumb a {
-    text-decoration: none;
+    text-decoration: none !important;
     color: #555555;
 }
 
@@ -677,7 +677,9 @@ product page
     margin-left: -8px;
     margin-left: -8px;
 }
-
+.suggestion-product .custom-thumnail .overlay {
+    height: 230px;
+}
 
 /* *************************************************
 
@@ -754,7 +756,9 @@ CHECKOUT PAGE
 .custom-table .total-price .custom-text-muted .custom-text-muted{
     color: #A9A9A9;
 } */
-
+.suggestion .custom-thumnail .overlay{
+    height: 245px;
+}
 /* *************************************************
 
 PAYMENT PAGE
@@ -856,6 +860,9 @@ SEARCH PAGE
 }
 .custom-pagination{
     margin: 25px 0;
+}
+.search-image .custom-thumnail .overlay{
+    height: 254px;
 }
 
 /* *************************************************
