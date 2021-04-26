@@ -17,8 +17,8 @@ body {
     border-bottom: 3px solid #EEF0EA;
     width: 100%;
     background-color: #fff;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 15px !important;
+    padding-bottom: 15px !important; 
 }
 
 .custom-navbar .container .navdar-brand {
@@ -912,6 +912,9 @@ MEDIA QUERY
     .custom-navbar .navbar-nav li:last-of-type {
         margin-top: 4px;
     }
+    .modifid-font-size{
+        font-size: 16px !important;
+    }
 }
 
 @media (max-width: 991.98px) and (min-width: 768px) {
@@ -1004,6 +1007,9 @@ MEDIA QUERY
     #form-subscription{
         margin-bottom: 40px;
     }
+    #row-brands p.custom-text-muted{
+        font-size: 15px;
+    }
 
 }
 
@@ -1035,6 +1041,9 @@ MEDIA QUERY
     /* checkout page */
     .hide-on-small{
         display: none;
+    }
+    #row-brands p.custom-text-muted{
+        font-size: 18px;
     }
 }
 
